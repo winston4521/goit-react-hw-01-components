@@ -1,0 +1,38 @@
+.statistics {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-weight: 800;
+  font-size: 35px;
+  color: rgb(156, 153, 159);
+  margin-bottom: 10px;
+}
+.stat_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.item {
+  width: 40px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 244, 99);
+  border: 1px solid black;
+  border-radius: 25%;
+  transition: all 0.3s ease;
+}
+
+.item:hover,
+.item:focus {
+  transform: rotateZ(25deg);
+}

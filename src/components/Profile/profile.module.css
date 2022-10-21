@@ -1,0 +1,61 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.avatar {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 800px;
+  font-size: 24px;
+}
+.tag {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(113, 118, 118);
+}
+
+.location {
+  font-size: 18px;
+  color: rgb(113, 118, 118);
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+}
+.stats_item {
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(151, 170, 149);
+
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(188, 180, 180);
+  transition: all 0.3s ease;
+}
+
+.stats_item:not(:last-child) {
+  margin-right: 10px;
+}
+.stats_item:hover,
+.stats_item:focus {
+  transform: scale(1.1);
+}
